@@ -1,0 +1,44 @@
+.die {
+    font-size: 10em;
+    padding: 0.20em;
+}
+
+.fa-dice-one {
+    color: rgb(196, 108, 7);
+}
+
+.fa-dice-two {
+    color: rgb(189, 38, 101);
+}
+
+.fa-dice-three {
+    color: rgb(80, 136, 80); 
+}
+
+.fa-dice-four {
+    color: rgb(7, 168, 168);
+}
+
+.fa-dice-five {
+    color: rgb(182, 72, 233);
+}
+
+.fa-dice-six {
+    color: rgb(111, 113, 180);
+}
+
+.rotate-diagonal-2 {
+	animation: rotate-diagonal-2 1s linear both;
+}
+
+@keyframes rotate-diagonal-2 {
+    0% {
+      transform: rotate3d(-1, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(-1, 1, 0, 180deg);
+    }
+    100% {
+      transform: rotate3d(-1, 1, 0, 360deg);
+    }
+  }

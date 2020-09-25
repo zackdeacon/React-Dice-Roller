@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.rollBtn {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid rgba(89, 171, 226, 0.603);
+
+}
+
+.rollBtn:hover {
+    background-color: rgba(89, 171, 226, 0.603);
+}
+
+.diceDiv {
+    background-color: rgba(5, 5, 5, 0.041);
+    border-radius: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.123); */
+    border-top: 1px solid rgba(0, 0, 0, 0.123);
+    
+}
+
+.rotate-diagonal-2 {
+	animation: rotate-diagonal-2 0.4s linear both;
+}
+
+@keyframes rotate-diagonal-2 {
+    0% {
+      transform: rotate3d(-1, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(-1, 1, 0, 180deg);
+    }
+    100% {
+      transform: rotate3d(-1, 1, 0, 360deg);
+    }
+  }
+  
