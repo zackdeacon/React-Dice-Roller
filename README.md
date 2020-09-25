@@ -2,6 +2,10 @@
 
     
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Link to deployed app 
+
+https://dashboard.heroku.com/apps/zacks-dice-roller
     
 ## table of contents 
 
@@ -42,3 +46,6 @@ feel free to contribute as you wish!
 
     
   No tests 
+  
+  
+  ![](public/Dice-screenshot.jpeg)
