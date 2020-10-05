@@ -3,37 +3,39 @@ import Coin from '../coin component/coin'
 import Coin2 from '../coin component/coin2'
 import "./coinflip.css";
 
-let num1 = 0;
-let num2 = 0;
-let num3 =0; 
 
 class Coinflip extends Component {
     constructor(props) {
         super(props)
-        this.state= {flipping: false, tailsCount: num1, headsCount: num2, totalFlip: num3, coinFace: false}
+        this.state= {flipping: false, tailsCount: 0, headsCount: 0, totalFlip: 0, coinFace: false}
 
     }
-
-
     handleclick = e => {
         let randFlip = (Math.floor(Math.random() * 2)+1)
 
         if (randFlip === 1) {
-        this.setState({ tailsCount: num1++, coinFace: false})
+        this.setState(st => {
+            return { 
+                tailsCount: st.tailsCount+1, 
+                coinFace: false, 
+                totalFlip: st.totalFlip+1
+            }
+            })
         } else {
-        this.setState({ headsCount: num2++, coinFace: true})
+        this.setState(st => { 
+            return {
+                 headsCount: st.headsCount +1, 
+                 coinFace: true, 
+                 totalFlip: st.totalFlip +1
+                }
+                })
         }
-
         console.log(randFlip)
-
         this.setState({ flipping: true, })
-
         setTimeout(() => {
             this.setState({ flipping: false })
         }, 1000)
     }
-
-
 render() {
      return(
          <>
@@ -46,6 +48,5 @@ render() {
         </>
      )
 } 
-
 } 
 export default Coinflip; 
