@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import "./coin.css";
 
-class Coin extends Component {
+class Coin2 extends Component {
     constructor(props) {
         super(props)
     }
@@ -10,10 +10,10 @@ class Coin extends Component {
 render() {
      return(
         <div>
-            <img src={require("../../assets/QuarterHeads.jpg")} className="quarterImg img-fluid"></img>
+            <img src={require("../../assets/QuarterTails.jpg")} className="quarterImg img-fluid"></img>
         </div>
      )
 } 
 
 } 
-export default Coin; 
+export default Coin2; 
