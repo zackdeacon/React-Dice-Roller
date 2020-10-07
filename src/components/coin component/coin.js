@@ -10,7 +10,7 @@ class Coin extends Component {
 render() {
      return(
         <div>
-            <img src={require("../../assets/QuarterHeads.jpg")} className="quarterImg img-fluid"></img>
+            <img src={require("../../assets/QuarterHeads.jpg")} className={`quarterImg img-fluid ${this.props.flipping ? 'flip-horizontal-bottom' : ''}`}></img>
         </div>
      )
 } 

@@ -2,3 +2,12 @@
     display: block;
     text-align: center;
 }
+
+.btnCoin {
+    border: 1px solid rgba(72, 145, 72, 0.856);
+    color: rgba(72, 145, 72, 0.856);
+}
+
+.btnCoin:hover {
+    background-color: rgb(110, 193, 204);
+}
