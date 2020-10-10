@@ -1,0 +1,22 @@
+.RollDiceBtnDiv {
+    width: 100vw;
+    height: 50vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.coinBtnDiv {
+    width: 100vw;
+    height: 50vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.btnClasses {
+    max-width: 12rem;
+    max-height: 4rem;
+}
