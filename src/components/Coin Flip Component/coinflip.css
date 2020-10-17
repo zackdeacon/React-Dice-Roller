@@ -6,6 +6,7 @@
 .btnCoin {
     border: 1px solid rgba(72, 145, 72, 0.856);
     color: rgba(72, 145, 72, 0.856);
+    margin: 1em;
 }
 
 .btnCoin:hover {

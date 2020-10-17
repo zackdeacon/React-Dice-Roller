@@ -7,7 +7,7 @@
     display: flex;
     justify-content: flex-end;
     border: 1px solid rgba(89, 171, 226, 0.603);
-
+    margin: 1em;
 }
 
 .rollBtn:hover {
@@ -19,7 +19,7 @@
     border-radius: 10px;
     /* border: 1px solid rgba(0, 0, 0, 0.123); */
     border-top: 1px solid rgba(0, 0, 0, 0.123);
-    
+    margin: 1em;
 }
 
 .rotate-diagonal-2 {

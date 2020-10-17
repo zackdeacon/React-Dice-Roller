@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Rolldice from './components/Roll Dice component/rolldice'
 import Coinflip from './components/Coin Flip Component/coinflip'
 import Home from './components/Home component/home'
+import Footer from './components/Footer Component /footer'
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Rolldice />
         </Route>
     </Switch>
+    <Footer />
     </Router>
     </>
   );

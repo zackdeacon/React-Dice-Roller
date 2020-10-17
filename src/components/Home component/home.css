@@ -1,22 +1,45 @@
-.RollDiceBtnDiv {
-    width: 100vw;
-    height: 50vh;
-    background-color: lightblue;
+.parentDiv {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.placeholderDiv {
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    width: 75vw;
+    background-color: rgba(10, 10, 10, 0.178);
+    margin-top: 3em;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.secondHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mainP {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pTag {
     margin: 1em;
 }
 
-.coinBtnDiv {
-    width: 100vw;
-    height: 50vh;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    margin: 1em;
+.h1Tag {
+    margin: .5em;
 }
 
-.btnClasses {
-    max-width: 12rem;
-    max-height: 4rem;
+.h3Tag {
+    margin: .5em;
 }
